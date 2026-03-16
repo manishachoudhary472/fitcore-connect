@@ -14,13 +14,13 @@ const Index = () => {
       <Header />
       <HeroSection />
       <AboutSection />
-      <GuestGate message="Sign in to view upcoming events and join the community">
+      <GuestGate message="Please login to check upcoming events">
         <EventsSection />
       </GuestGate>
-      <GuestGate message="Sign in to track your fitness goals">
+      <GuestGate message="Please login to track your fitness goals">
         <GoalsSection />
       </GuestGate>
-      <GuestGate message="Sign in to participate in challenges">
+      <GuestGate message="Please login to participate in challenges">
         <ChallengesSection />
       </GuestGate>
       <ContactSection />
